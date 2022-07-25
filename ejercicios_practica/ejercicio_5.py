@@ -20,3 +20,7 @@ palabra_2 = str(input())
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+subtext = palabra_1[:3]
+subtext_2 = palabra_2[:2]
+print(subtext+subtext_2)
+print(subtext_2+subtext)
